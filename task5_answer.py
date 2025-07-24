@@ -47,5 +47,6 @@ paul = len(friends[:6])
 
 print(f"Paul is in position: ", paul)
 
+friends.sort()
 
 print(f"contacts in Descending Alphabetical Order: ", friends[::-1])
