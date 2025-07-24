@@ -16,7 +16,11 @@ meals.append(last)
 
 print(meals)
 
-middle = meals[-3]
+
+
+middle = len(meals) // 2
+
+print("Middle item is: ", meals[middle])
 
 meals.sort()
 
